@@ -3,14 +3,14 @@ User Interface for Web Dashboard (referred as *Portal*). This interface is used 
 
 The interface is embedded in the system (TOS) where it serve as a dashboard to the accompanied device(s).
 
-###Dependencies
+### Dependencies
 1. VueJS 2.x - JS Framework (https://vuejs.org)
 2. Bulma - CSS Framework (http://bulma.io/)
 3. FontAwesome - CSS Icons (http://fontawesome.io/)
 
-####Compatible with Desktop, Tablet, Mobile
+#### Compatible with Desktop, Tablet, Mobile
 
-###Plugins
+### Plugins
 All dynamic interface are built with custom directives (*see Vue*) for testability and deployment. Not all interface will be included in a build unless instructed to do so.
 
 ### Features
@@ -19,7 +19,7 @@ All dynamic interface are built with custom directives (*see Vue*) for testabili
 3. TALK
 4. Dashboard
 
-###Naming Convention
+### Naming Convention
 
 **Folders uses hyphen `-`, files use underscore `_`.**
 
@@ -45,16 +45,16 @@ TUI have strict naming for sanity. This is to prevent duplicates of elements and
 
 `label` is common sense but unique.
 
-####Example..
+#### Example..
 
 1. `layout_header`
 2. `button_sidebar_selection`
 3. `button_sidebar_selection_vertical`
 
-###Installation
+### Installation
 ...
 
-###Preview
+### Preview
 
-###License
+### License
 MIT
