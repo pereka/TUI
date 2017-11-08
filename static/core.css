@@ -40,9 +40,48 @@ body {
 }
 
 .grid {
-    background: #F6F5F5;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06); 
+    width: 12.5%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+    position: relative;
 }
+
+.grid:first-child {
+    margin-left: 10px;
+}
+
+.grid .component {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.grid .component.quarter {
+    background: red;
+}
+
+.grid .component.half {
+    background: blue;
+}
+
+.component.width-1 { width: 100%; }
+.component.width-2 { width: 200%; }
+.component.width-3 { width: 300%; }
+.component.width-4 { width: 400%; }
+.component.width-5 { width: 500%; }
+.component.width-6 { width: 600%; }
+.component.width-7 { width: 700%; }
+.component.width-8 { width: 800%; }
+
+.component.height-1 { height: 100%; }
+.component.height-2 { height: 200%; }
+.component.height-3 { height: 300%; }
+.component.height-4 { height: 400%; }
+.component.height-5 { height: 500%; }
+.component.height-6 { height: 600%; }
+.component.height-7 { height: 700%; }
+.component.height-8 { height: 800%; }
 
 #sidebar {
     margin-left: -32px;

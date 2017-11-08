@@ -2,8 +2,42 @@
     background: #386EBE;
 }
 
-.button.is-red {
+.is-red {
     background-color: #D04302;
+}
+.is-shade {
+    background-color: #595A5A;
+}
+.is-yellow {
+    background-color: #F9D759;
+}
+
+.is-green {
+    background-color: #64BB49;
+}
+.is-hyperlink {
+    background-color: #63ABFF;
+}
+.is-dark {
+    background-color: #1A1A1A;
+}
+.is-gray {
+    background-color: #787878;
+}
+.is-light {
+    background-color: #FEFEFE;
+}
+.is-dark-text {
+    color: #1A1A1A;
+}
+.is-gray-text {
+    color: #787878;
+}
+.is-light-text {
+    color: #FEFEFE;
+}
+
+.button.is-red {
     color: #FFF;
     border: none;
 }
@@ -35,5 +69,11 @@
 .button.is-text-hyperlink {
     background: none;
     color: #63ABFF;
+    border: none;
+}
+
+.button.is-text-dark {
+    background: none;
+    color: #1A1A1A;
     border: none;
 }
