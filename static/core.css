@@ -54,12 +54,59 @@ body {
     z-index: 2;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .grid .component img {
     width: 100%;
     height: 100%;
+}
+
+.grid .component .level {
+    height: 90%;
+}
+
+.grid .component .level-info {
+    margin-top: 0%;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 76%;
+}
+
+.grid .component table {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* table fit */
+.grid .component table.is-fit {
+    font-size: 0.8em;
+}
+.grid .component table.is-fit th:first-child, .grid .component table.is-fit td:first-child {
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* colored */
+.grid .component table.colored th {
+    font-size: 0.83em;
+    border-bottom: 1px solid #535454;
+    color: #9B9B9B;
+}
+
+.grid .component table th, .grid .component table td {
+    padding: 2px 12px;
+}
+
+.grid .component table.colored th:nth-child(even), .grid .component table.colored td:nth-child(even) {
+    background: #535454;
+    opacity: 0.8;
+}
+.grid .component table.colored tr:nth-child(even) {
+    background: #686969;
+    opacity: 0.8;
 }
 
 .grid .component.active {
@@ -120,11 +167,24 @@ body {
     border: 1px solid #979797;
     background: #FFF;
     position: absolute;
+    z-index: 9999;
 }
 
 .handle.handle-top {
     top: 0;
     left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-topleft {
+    top: 0;
+    left: 0%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-topright {
+    top: 0%;
+    left: 100%;
     margin-top: -4px;
     margin-left: -4px;
 }
@@ -134,26 +194,29 @@ body {
     margin-top: -4px;
     margin-left: -4px;
 }
-.handle.handle-bottom {
-    top: 100%;
-    left: 50%;
-    margin-top: -4px;
-    margin-left: -4px;
-}
 .handle.handle-left {
     top: 50%;
     left: 0%;
     margin-top: -4px;
     margin-left: -4px;
 }
-
-/* hide handle on edges */
-.grid:first-child .handle-left {
-    display: none;
+.handle.handle-bottom {
+    top: 100%;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
 }
-
-.row:first-child .grid .handle.handle-top {
-    display: none;
+.handle.handle-bottomleft {
+    top: 100%;
+    left: 0%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-bottomright {
+    top: 100%;
+    left: 100%;
+    margin-top: -4px;
+    margin-left: -4px;
 }
 
 #sidebar {
@@ -359,3 +422,5 @@ body {
     border-radius: 0 !important;
 }
 
+.is-padding10 { padding: 10px !important; }
+.is-padding5 { padding: 5px !important; }

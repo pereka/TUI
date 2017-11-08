@@ -5,15 +5,23 @@
 .is-red {
     background-color: #D04302;
 }
+.is-red-text {
+    color: #D04302 !important;
+}
 .is-shade {
     background-color: #595A5A;
 }
 .is-yellow {
     background-color: #F9D759;
 }
-
+.is-yellow-text {
+    color: #F9D759;
+}
 .is-green {
     background-color: #64BB49;
+}
+.is-green-text {
+    color: #64BB49;
 }
 .is-hyperlink {
     background-color: #63ABFF;
