@@ -28,13 +28,13 @@
     background-color: #FEFEFE;
 }
 .is-dark-text {
-    color: #1A1A1A;
+    color: #1A1A1A !important;
 }
 .is-gray-text {
-    color: #787878;
+    color: #787878 !important;
 }
 .is-light-text {
-    color: #FEFEFE;
+    color: #FEFEFE !important;
 }
 
 .button.is-red {

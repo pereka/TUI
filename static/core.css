@@ -62,6 +62,14 @@ body {
     z-index: 99;
 }
 
+.grid .component.active .handle, .grid .component.active .menu {
+    opacity: 1;
+}
+
+.grid .component .handle, .grid .component .menu {
+    opacity: 0;
+}
+
 .component.width-1 { width: 100%; }
 .component.width-2 { width: 200%; }
 .component.width-3 { width: 300%; }
@@ -91,6 +99,14 @@ body {
 
 .component .menu .button {
     border: none;
+}
+
+.component h4.label {
+    position: absolute;
+    top: 10px;
+    padding: 1px 20px;
+    top: 10px;
+    left: 0;
 }
 
 .handle {
