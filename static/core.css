@@ -80,36 +80,46 @@ body {
 .component.height-7 { height: 700%; }
 .component.height-8 { height: 800%; }
 
+.component .menu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 100%;
+    margin-left: -25px;
+}
+
+.component .menu .button {
+    border: none;
+}
+
 .handle {
     width: 8px;
     height: 8px;
     border: 1px solid #979797;
     background: #FFF;
+    position: absolute;
 }
 
 .handle.handle-top {
-    position: absolute;
     top: 0;
     left: 50%;
     margin-top: -4px;
     margin-left: -4px;
 }
 .handle.handle-right {
-    position: absolute;
     top: 50%;
     left: 100%;
     margin-top: -4px;
     margin-left: -4px;
 }
 .handle.handle-bottom {
-    position: absolute;
     top: 100%;
     left: 50%;
     margin-top: -4px;
     margin-left: -4px;
 }
 .handle.handle-left {
-    position: absolute;
     top: 50%;
     left: 0%;
     margin-top: -4px;

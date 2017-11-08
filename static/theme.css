@@ -60,6 +60,14 @@
     border: none;
 }
 
+.button.is-special {
+    color: #63ABFF;
+    background: #FEFEFE;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .button.is-transparent {
     background: none;
     border: none;
