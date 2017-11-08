@@ -1,0 +1,30 @@
+body, button, input, select, textarea, h3, h4 {
+    font-family: 'Proxima Nova', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+.title {
+    font-size: 1.75em !important;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.66em !important;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.16em !important;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 0.66em !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 0.84em !important;
+    font-weight: normal !important;
+    text-transform: uppercase;
+}
