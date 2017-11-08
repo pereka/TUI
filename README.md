@@ -23,10 +23,10 @@ All dynamic interface are built with custom directives (*see Vue*) for testabili
 
 > ##### Filenaming reference
 > For spacing, folders uses hyphen `-`, files use underscore `_`.  
-> No camelcase, just use the exact name convention.
+> No camelcase, just use the name convention below.
 
 TUI have strict naming for sanity. This is to prevent duplicates of elements and overriding styles.  
-Naming is like so.. `[element]`\_`[location]`\_`[label]`
+Naming is like so.. `[element]`/`[location]`/`[descriptive_label]` (as in folder hierarchy).  
 
 `element` could be one of the following:
 
@@ -49,9 +49,9 @@ Naming is like so.. `[element]`\_`[location]`\_`[label]`
 
 #### Example..
 
-1. `layout_header`
-2. `button_sidebar_selection`
-3. `button_sidebar_selection_vertical`
+1. `layout/header`
+2. `button/sidebar/selection`
+3. `button/sidebar/selection_vertical`
 
 #### Build Setup
 
