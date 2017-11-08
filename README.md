@@ -3,7 +3,7 @@ User Interface for Web Dashboard (referred as *Portal*). This interface is used 
 
 The interface is embedded in the system (TOS) where it serve as a dashboard to the accompanied device(s).
 
-### Dependencies
+### Core Dependencies
 1. VueJS 2.x - JS Framework (https://vuejs.org)
 2. Bulma - CSS Framework (http://bulma.io/)
 3. FontAwesome - CSS Icons (http://fontawesome.io/)
@@ -21,10 +21,12 @@ All dynamic interface are built with custom directives (*see Vue*) for testabili
 
 ### Naming Convention
 
-**Folders uses hyphen `-`, files use underscore `_`.**
+> ##### Filenaming reference
+> For spacing, folders uses hyphen `-`, files use underscore `_`.  
+> No camelcase, just use the exact name convention.
 
-TUI have strict naming for sanity. This is to prevent duplicates of elements and overriding styles. Naming is like so..
-`[element]`\_`[location]`\_`[label]`
+TUI have strict naming for sanity. This is to prevent duplicates of elements and overriding styles.  
+Naming is like so.. `[element]`\_`[location]`\_`[label]`
 
 `element` could be one of the following:
 

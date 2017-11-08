@@ -1,11 +1,187 @@
 <!DOCTYPE html>
+<!--
+     This file is a demo file that only serve #app
+     Several assets js/css are loaded without npm (not recommended)
+-->
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>tui</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <head>
+	<meta charset="utf-8">
+	<title>TUI</title>
+	<link rel="stylesheet" href="static/core.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="static/theme.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	      type="text/css" media="screen" />
+    </head>
+    <body>
+	<div id="talk">
+	    <span class="icon is-pulled-right">
+		<i class="fa fa-home"></i>
+	    </span>
+	</div>
+
+	<div id="fullscreen">
+	    <div id="action" class="columns">
+		<div class="column is-4 is-offset-8">
+		    <div class="columns">
+
+			<div class="column is-4 is-offset-2">
+			    <div class="field has-addons">
+				<p class="control">
+				    <a class="button is-small is-text">
+					<span>Background</span>
+				    </a>
+				</p>
+				<p class="control shadow">
+				    <a class="button is-small is-white">
+					<span class="icon is-small">
+					    <i class="fa fa-stop" style="color:#F00"></i>
+					</span>
+				    </a>
+				</p>
+			    </div>
+			</div>
+
+			<div class="column is-6">
+			    <div class="field has-addons">
+				<p class="control shadow">
+				    <a class="button is-small is-hyperlink">
+					<span>Save As..</span>
+				    </a>
+				</p>
+				<p class="control shadow">
+				    <a class="button is-small is-white">
+					<span class="icon is-small">
+					    <i class="fa fa-ellipsis-h"></i>
+					</span>
+				    </a>
+				</p>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="columns grid-row">
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+		<div class="grid column is-gapless"></div>
+	    </div>
+	</div>
+
+	<div class="container is-fluid app">
+	    <div id="sidebar" class="deactivate">
+		<div id="brands">
+		    <div class="level">
+			<div class="level-left">
+			    <div class="level-item">
+				<img alt="" src="/static/tag.png" width="40px" height="40px" />
+			    </div>
+			</div>
+			<div class="level-right">
+			    <div class="level-item">
+				<p class="control shadow">
+				    <a class="button is-transparent">
+					<i class="fa fa-home"></i>
+				    </a>
+				</p>
+			    </div>
+			</div>
+		    </div>
+		</div>
+
+		<div id="nav" class="visuallyhidden">
+		    <div id="nav-status" class="nav-item level">
+			<!-- Left side -->
+			<div class="level-left">
+			    <div class="level-item">
+				<p class="is-5">
+				    Go Fullscreen
+				</p>
+			    </div>
+			</div>
+			<!-- Right side -->
+			<div class="level-right">
+			    <div class="level-item">
+				<div class="field has-addons">
+				    <button class="button is-small is-red">OK</button>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		    <div class="nav-item level is-active">
+			<!-- Left side -->
+			<div class="level-left">
+			    <div class="level-item">
+				<p class="is-5">
+				    <span class="icon is-medium">
+					<i class="fa fa-search fa-lg"></i>
+				    </span>
+				    Search
+				</p>
+			    </div>
+			</div>
+			<!-- Right side -->
+			<div class="level-right">
+			    <div class="level-item">
+				<div class="field has-addons">
+				    <p class="control">
+					<span class="icon is-small">
+					    <i class="fa fa-close"></i>
+					</span>
+				    </p>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    
+	    <div id="main">
+		<div class="columns">
+		    <div id="search" class="column is-navigate">
+																											<div id="search-navigation">
+																											Search Navigation Active
+			</div>
+																											<div class="control has-icons-left has-icons-right">
+																											<input class="input" type="text" placeholder="">
+																											<span class="icon is-small is-left">
+																												<i class="fa fa-search"></i>
+			    </span>
+																											<span class="icon is-small is-right">
+																												<i class="fa fa-close"></i>
+			    </span>
+			</div>
+																					    </div>
+		</div>
+		<div id="content" class="visuallyhidden">
+		    <div class="columns">
+			<div id="content-nav" class="column is-full">
+			    <div class="level">
+				<div class="level-left">
+				    <div class="level-item">
+					<div class="icon is-medium">
+					    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+					</div>
+					BACK
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		    <div class="is-full">
+			hello
+		    </div>
+
+		</div>
+	    </div>
+	    </div>
+
+	    <div id="app"></div>
+	    <!-- built files will be auto injected -->
+    </body>
 </html>

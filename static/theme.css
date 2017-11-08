@@ -1,0 +1,33 @@
+#brands {
+    background: #386EBE;
+}
+
+.button.is-red {
+    background-color: #D04302;
+    color: #FFF;
+    border: none;
+}
+
+.button.is-yellow {
+    background-color: #F9D759;
+    color: #FFF;
+    border: none;
+}
+
+.button.is-green {
+    background-color: #64BB49;
+    color: #FFF;
+    border: none;
+}
+
+.button.is-hyperlink {
+    background-color: #63ABFF;
+    color: #FFF;
+    border: none;
+}
+
+.button.is-transparent {
+    background: none;
+    border: none;
+    color: #FFF;
+}
