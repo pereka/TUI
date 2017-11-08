@@ -31,3 +31,9 @@
     border: none;
     color: #FFF;
 }
+
+.button.is-text-hyperlink {
+    background: none;
+    color: #63ABFF;
+    border: none;
+}

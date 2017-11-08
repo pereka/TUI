@@ -20,7 +20,7 @@
 	    </span>
 	</div>
 
-	<div id="fullscreen">
+	<div id="fullscreen" class="visuallyhidden">
 	    <div id="action" class="columns">
 		<div class="column is-4 is-offset-8">
 		    <div class="columns">
@@ -74,7 +74,7 @@
 	</div>
 
 	<div class="container is-fluid app">
-	    <div id="sidebar" class="deactivate">
+	    <div id="sidebar">
 		<div id="brands">
 		    <div class="level">
 			<div class="level-left">
@@ -94,7 +94,7 @@
 		    </div>
 		</div>
 
-		<div id="nav" class="visuallyhidden">
+		<div id="nav">
 		    <div id="nav-status" class="nav-item level">
 			<!-- Left side -->
 			<div class="level-left">
@@ -144,19 +144,25 @@
 	    <div id="main">
 		<div class="columns">
 		    <div id="search" class="column is-navigate">
-																											<div id="search-navigation">
-																											Search Navigation Active
+			<div id="search-navigation">
+			    Search Navigation Active
 			</div>
-																											<div class="control has-icons-left has-icons-right">
-																											<input class="input" type="text" placeholder="">
-																											<span class="icon is-small is-left">
-																												<i class="fa fa-search"></i>
-			    </span>
-																											<span class="icon is-small is-right">
-																												<i class="fa fa-close"></i>
-			    </span>
+			<div class="field has-addons">
+			    <div class="control has-icons-left has-icons-right">
+				<input class="input" type="text" placeholder="">
+				<span class="icon is-small is-left">
+				    <i class="fa fa-search"></i>
+				</span>
+			    </div>
+			    <div class="control">
+				<a class="button is-text-hyperlink">
+				    <span class="icon is-small">
+					<i class="fa fa-close"></i>
+				    </span>
+				</a>
+			    </div>			    
 			</div>
-																					    </div>
+		    </div>
 		</div>
 		<div id="content" class="visuallyhidden">
 		    <div class="columns">
