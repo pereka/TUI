@@ -57,12 +57,9 @@ body {
     padding: 20px;
 }
 
-.grid .component.quarter {
-    background: red;
-}
-
-.grid .component.half {
-    background: blue;
+.grid .component.active {
+    box-shadow: 0px 0px 5px 0px rgba(26, 26, 26, 1);
+    z-index: 99;
 }
 
 .component.width-1 { width: 100%; }
@@ -82,6 +79,42 @@ body {
 .component.height-6 { height: 600%; }
 .component.height-7 { height: 700%; }
 .component.height-8 { height: 800%; }
+
+.handle {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #979797;
+    background: #FFF;
+}
+
+.handle.handle-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-right {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-bottom {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.handle.handle-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
 
 #sidebar {
     margin-left: -32px;
